@@ -5,6 +5,7 @@ import ch.puzzle.quarkustechlab.restconsumer.entity.SensorMeasurement;
 import io.quarkus.runtime.ShutdownEvent;
 import io.quarkus.runtime.StartupEvent;
 
+import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.event.Observes;
 import javax.inject.Inject;
 import javax.jms.*;
@@ -13,6 +14,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.logging.Logger;
 
+@ApplicationScoped
 public class JmsDataConsumer implements Runnable {
     @Inject
     ConnectionFactory connectionFactory;

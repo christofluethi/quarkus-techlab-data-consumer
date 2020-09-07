@@ -1,5 +1,6 @@
 package ch.puzzle.quarkustechlab.restconsumer.boundary;
 
+import ch.puzzle.quarkustechlab.restconsumer.control.JmsDataConsumer;
 import ch.puzzle.quarkustechlab.restconsumer.entity.SensorMeasurement;
 
 import javax.inject.Inject;

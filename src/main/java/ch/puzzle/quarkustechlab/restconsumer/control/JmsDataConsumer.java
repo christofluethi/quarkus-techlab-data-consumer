@@ -1,4 +1,4 @@
-package ch.puzzle.quarkustechlab.restconsumer.boundary;
+package ch.puzzle.quarkustechlab.restconsumer.control;
 
 
 import ch.puzzle.quarkustechlab.restconsumer.entity.SensorMeasurement;
